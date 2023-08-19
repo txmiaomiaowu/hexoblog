@@ -46,5 +46,3 @@ tags:
 $\sqrt{114}$
 $\log_2{n}$
 log<sub>2 n
-
-{% pdf http://7xov2f.com1.z0.glb.clouddn.com/bash_freshman.pdf %}
