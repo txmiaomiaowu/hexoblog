@@ -25,13 +25,6 @@ tags:
 <span class="label label-primary">Label</span>
 
 
-
-{% tabs Unique name, [index] %}
-<!-- tab [Tab caption] [@icon] -->
-Any content (support inline tags too).
-<!-- endtab -->
-{% endtabs %}
-
   
 !!! warning
     这是一条采用默认标题的警告信息。
