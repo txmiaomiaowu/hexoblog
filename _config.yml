@@ -4,9 +4,9 @@
 
 # Site
 title: Ethan's Blog
-subtitle: '原p'
-description: ''
-keywords:
+subtitle: '哈啊啊啊'
+description: '终于部署完了'
+keywords: blog
 author: Ethan
 language: zh
 timezone: 'UTC+8'
@@ -106,11 +106,11 @@ deploy:
 # Postinfo
 postInfo:
   date: true
-  update: false
-  wordCount: false # set true.
-  totalCount: false # set true.
-  min2read: false # set true.
-  readCount: false # set true.
+  update: true
+  wordCount: true # set true.
+  totalCount: true # set true.
+  min2read: true # set true.
+  readCount: true # set true.
 # Whether to display the music
 music:
   enable: true
