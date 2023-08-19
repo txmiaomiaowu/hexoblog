@@ -1,4 +1,6 @@
 ---
 title: friends
-date: 2023-08-19 12:45:45
+date: 2023-8-19 21:25:30
+type: "friends"
+layout: "friends"
 ---

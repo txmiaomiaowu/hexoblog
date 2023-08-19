@@ -14,4 +14,5 @@ npm i hexo-renderer-markdown-it --save
 npm i hexo-image-link --save
 
 # 开始构建
+hexo clean
 hexo g --config config.yml

@@ -44,14 +44,14 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: true
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -103,28 +103,44 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-# Postinfo
-postInfo:
-  date: true
-  update: true
-  wordCount: true # set true.
-  totalCount: true # set true.
-  min2read: true # set true.
-  readCount: true # set true.
-# Whether to display the music
-music:
-  enable: true
-  title: 		   # non-fixed mode works
-    enable: true
-    show: Listen to music
-  server: netease   # require music platform: netease, tencent, kugou, xiami, baidu
-  type: playlist    # require song, playlist, album, search, artist
-  id: 503838841     # require song id / playlist id / album id / search keyword
-  fixed: false      # enable fixed mode
-  autoplay: false   # audio atuoplay
-  theme: '#42b983'
-  loop: 'all'       # player loop play, values: 'all', 'one', 'none'
-  order: 'random'   # player play order, values: 'list', 'random'
-  preload: 'auto'   # values: 'none', 'metadata', 'auto'
-  volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
-  listFolded: true  # indicate whether list should folded at first
+# engine
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: true
+    langPrefix: 'language-'
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  enable_rules:
+  disable_rules:
+  plugins:
+   - markdown-it-abbr
+   - markdown-it-attrs
+   - markdown-it-cjk-breaks
+   - markdown-it-container
+   - markdown-it-deflist
+   - markdown-it-emoji
+   - markdown-it-footnote
+   - markdown-it-ins
+   - markdown-it-mark
+   - markdown-it-sub
+   - markdown-it-sup
+   - markdown-it-table-of-contents
+   - markdown-it-merge-cells
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    permalink: true
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'left'
+    permalinkSymbol: '¶'
+    case: 0
+    separator: '-'
+  images:
+    lazyload: false
+    prepend_root: true
+    post_asset: true
+  inline: true  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
