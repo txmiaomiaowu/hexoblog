@@ -9,7 +9,7 @@ description: '终于部署完了'
 keywords: blog
 author: Ethan
 language: zh
-timezone: 'UTC+8'
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

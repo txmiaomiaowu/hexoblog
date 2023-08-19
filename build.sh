@@ -2,8 +2,6 @@
 
 # 配置环境
 npm install -g hexo-cli
-mkdir hexo
-cd hexo
 hexo init
 npm install
 
