@@ -23,7 +23,7 @@ menu:
     url: /contact
     icon: fas fa-comments
   Friends:
-    url: /friends
+    url: /thanks
     icon: fas fa-address-book
   # 二级菜单写法如下
   #Medias:
@@ -259,7 +259,7 @@ snowdown:
 profile:
   avatar: /medias/avatar.jpg
   career: Student
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  introduction: Oh my Gosh!
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
