@@ -33,8 +33,8 @@ npm install @heowc/hexo-tag-gdemo --save
 npm install hexo-github-card --save
 npm install hexo-auto-category --save
 npm install hexo-tag-plantuml --save
-npm install hexo-tag-mmedia --save
 npm install hexo-markmap --save
+npm install hexo-matery-url --save
 
 #尝试优化
 
