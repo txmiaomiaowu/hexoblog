@@ -6,10 +6,11 @@ npm install -g hexo-cli
 
 #安装插件
 
-npm remove hexo-renderer-marked
-npm add hexo-renderer-markdown-it hexo-tag-mermaid
-npm install markdown-it-merge-cells
-npm i markdown-it-abbr markdown-it-attrs markdown-it-cjk-breaks markdown-it-container markdown-it-deflist markdown-it-emoji markdown-it-footnote markdown-it-ins markdown-it-mark markdown-it-sub markdown-it-sup
+npm remove hexo-renderer-marked --save
+npm add hexo-renderer-markdown-it hexo-tag-mermaid --save
+npm install markdown-it-merge-cells --save
+npm i hexo-renderer-markdown-it --save
+npm i markdown-it-abbr markdown-it-attrs markdown-it-cjk-breaks markdown-it-container markdown-it-deflist markdown-it-emoji markdown-it-footnote markdown-it-ins markdown-it-mark markdown-it-sub markdown-it-sup --save
 npm install hexo-generator-search --save
 npm i --save hexo-wordcount
 npm install hexo-generator-feed --save
