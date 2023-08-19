@@ -16,6 +16,7 @@ npm i --save hexo-wordcount
 npm install hexo-generator-feed --save
 npm i hexo-permalink-pinyin --save
 npm install hexo-filter-github-emojis --save
+npm install hexo-admonition --save
 
 # 使用新的渲染器
 npm un hexo-renderer-marked --save

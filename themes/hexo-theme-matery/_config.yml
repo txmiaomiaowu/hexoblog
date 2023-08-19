@@ -610,13 +610,13 @@ ribbon:
 
 # 背景动态彩带.
 ribbon_dynamic:
-  enable: false
+  enable: true
 
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
 sharejs:
   enable: true
-  sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
+  sites: qq,wechat,weibo,douban,linkedin
 
 # addthis文章分享模块.
 addthis:
@@ -633,9 +633,8 @@ subtitle:
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
   sub:
-    - 从来没有真正的绝境, 只有心灵的迷途
-    - Never really desperate, only the lost of the soul
-
+    - 永无止境的折腾!!!
+    - Hey,bro,wanna fight?
 # 手机二级菜单.
 navMenu:
   mleft: true # 二级侧栏子菜单是否对齐左边
