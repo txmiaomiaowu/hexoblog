@@ -17,10 +17,30 @@ npm install hexo-generator-feed --save
 npm i hexo-permalink-pinyin --save
 npm install hexo-filter-github-emojis --save
 npm install hexo-admonition --save
+npm install --save hexo-excerpt-block
+npm i hexo-asset-image --save
+npm install hexo-abbrlink --save
+npm install hexo-neat --save
+npm i hexo-filter-nofollow --save
+npm install hexo-pinyin-ruby-marks -- save
+npm install hexo-spoiler --save
+npm install hexo-tag-common --save
+npm install hexo-tag-chart --save
+npm install hexo-pangu --save
+npm install hexo-tag-hint --save
+npm i hexo-tag-qrcode --save
+npm install @heowc/hexo-tag-gdemo --save
+npm install hexo-github-card --save
+npm install hexo-auto-category --save
+npm install hexo-tag-plantuml --save
+npm install hexo-tag-mmedia --save
+npm install hexo-markmap --save
 
-# 使用新的渲染器
-npm un hexo-renderer-marked --save
-npm i hexo-renderer-markdown-it --save
+#尝试优化
+
+npm update
+npm upgrade
+npm audit fix
 
 # 处理图片
 npm i hexo-image-link --save

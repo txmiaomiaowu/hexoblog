@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -105,7 +105,7 @@ deploy:
   type: ''
 # engine
 markdown:
-  preset: 'default'
+  preset: 'commonmark'
   render:
     html: true
     xhtmlOut: true
@@ -144,3 +144,21 @@ markdown:
     prepend_root: true
     post_asset: true
   inline: true  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
+# zip
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+# blur
+spoiler:
+  style: blur # 或者box
+  color: black # 仅当 style 为 box 时起效
+  p: false # 没懂啥意思，不管它
+# Generate categories from directory-tree
+# Dependencies: https://github.com/xu-song/hexo-auto-category
+# depth: the depth of directory-tree you want to generate, should > 0
+auto_category:
+ enable: true
+ depth: 3
+hexo_markmap:
+  pjax: true
