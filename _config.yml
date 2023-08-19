@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Ethan's Blog
+subtitle: '原p'
 description: ''
 keywords:
-author: John Doe
+author: Ethan
 language: zh
-timezone: ''
+timezone: 'UTC+8'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -46,10 +46,10 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 prismjs:
   enable: false
   preprocess: true
@@ -111,3 +111,20 @@ postInfo:
   totalCount: false # set true.
   min2read: false # set true.
   readCount: false # set true.
+# Whether to display the music
+music:
+  enable: true
+  title: 		   # non-fixed mode works
+    enable: true
+    show: Listen to music
+  server: netease   # require music platform: netease, tencent, kugou, xiami, baidu
+  type: playlist    # require song, playlist, album, search, artist
+  id: 503838841     # require song id / playlist id / album id / search keyword
+  fixed: false      # enable fixed mode
+  autoplay: false   # audio atuoplay
+  theme: '#42b983'
+  loop: 'all'       # player loop play, values: 'all', 'one', 'none'
+  order: 'random'   # player play order, values: 'list', 'random'
+  preload: 'auto'   # values: 'none', 'metadata', 'auto'
+  volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
+  listFolded: true  # indicate whether list should folded at first
