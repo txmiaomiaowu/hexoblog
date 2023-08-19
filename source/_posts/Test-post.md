@@ -24,14 +24,7 @@ tags:
 
 <span class="label label-primary">Label</span>
 
-{% gi 5 3-2 %}
-  ![](https://blog.17lai.site/medias_webp/cover/fitness.webp)
-  ![](https://blog.17lai.site/medias_webp/cover/fitness.webp)
-  ![](https://blog.17lai.site/medias_webp/cover/fitness.webp)
-  ![](https://blog.17lai.site/medias_webp/cover/fitness.webp)
-  ![](https://blog.17lai.site/medias_webp/cover/fitness.webp)
 
-{% endgi %}
 
 {% tabs Unique name, [index] %}
 <!-- tab [Tab caption] [@icon] -->
