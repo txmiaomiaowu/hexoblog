@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # 配置环境
+rm -rf ./publish
 npm install -g hexo-cli
 hexo init
 npm install
