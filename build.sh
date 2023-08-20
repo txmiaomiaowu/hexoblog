@@ -36,11 +36,12 @@ npm install hexo-tag-plantuml --save -f
 npm install hexo-markmap --save -f
 npm install hexo-matery-url --save -f
 npm install hexo-lazyload-image --save -f
-npm install hexo-filter-lqip --save -f
 npm install gulp -g --save -f
 npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify --save -f
 npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 @babel/core --save -f
 npm install gulp-imagemin@7.1.0 --save -f
+
+npm install hexo-filter-lqip --save -f
 #尝试优化
 
 npm update
