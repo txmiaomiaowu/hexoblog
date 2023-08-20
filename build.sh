@@ -33,13 +33,13 @@ npm install @heowc/hexo-tag-gdemo --save -f
 npm install hexo-github-card --save -f
 npm install hexo-auto-category --save -f
 npm install hexo-tag-plantuml --save -f
-npm install hexo-markmap --save -f
-npm install hexo-matery-url --save -f
-npm install hexo-lazyload-image --save -f
-npm install gulp -g --save -f
-npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify --save -f
-npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 @babel/core --save -f
-npm install gulp-imagemin@7.1.0 --save -f
+npm install hexo-markmap --save -f --legacy-peer-deps
+npm install hexo-matery-url --save -f --legacy-peer-deps
+npm install hexo-lazyload-image --save -f --legacy-peer-deps
+npm install gulp -g --save -f --legacy-peer-deps
+npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify --save -f --legacy-peer-deps
+npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 @babel/core --save -f --legacy-peer-deps
+npm install gulp-imagemin@7.1.0 --save -f --legacy-peer-deps
 
 #尝试优化
 
