@@ -2,6 +2,7 @@
 
 # 配置环境
 rm -rf ./publish
+rm -rf ./node_*
 npm install -g hexo-cli
 
 #尝试优化
@@ -29,9 +30,6 @@ npm i hexo-asset-image --save
 npm install hexo-abbrlink --save
 npm install hexo-neat --save
 npm i hexo-filter-nofollow --save
-#
-npm audit fix --force
-#
 npm install hexo-pinyin-ruby-marks -- save
 npm install hexo-spoiler --save
 npm install hexo-tag-common --save
@@ -46,13 +44,10 @@ npm install hexo-tag-plantuml --save -f
 npm install hexo-markmap --save -f --legacy-peer-deps
 npm install hexo-matery-url --save -f --legacy-peer-deps
 npm install hexo-lazyload-image --save -f --legacy-peer-deps
-npm install gulp -g --save -f --legacy-peer-deps
-npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify --save -f --legacy-peer-deps
-npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 @babel/core --save -f --legacy-peer-deps
-npm install gulp-imagemin@7.1.0 --save -f --legacy-peer-deps
-#
-npm audit fix --force
-#
+npm install gulp -g --save
+npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify --save -f
+npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 @babel/core --save -f
+npm install gulp-imagemin@7.1.0 --save --legacy-peer-deps
 
 # 处理图片
 npm i hexo-image-link --save

@@ -12,7 +12,6 @@ var isScriptAll = true; //是否处理所有文件，(true|处理所有文件)(f
 var isDebug = true; //是否调试显示 编译通过的文件
 var gulpBabel = require("gulp-babel");
 var es2015Preset = require("babel-preset-es2015");
-var del = import("del")
 var Hexo = require("hexo");
 var hexo = new Hexo(process.cwd(), {}); // 初始化一个hexo对象
 
