@@ -35,7 +35,6 @@
     "hexo-asset-image": "^1.0.0",
     "hexo-auto-category": "^0.2.2",
     "hexo-excerpt-block": "^1.0.0",
-    "hexo-filter-lqip": "^1.4.1",
     "hexo-filter-nofollow": "^2.0.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
