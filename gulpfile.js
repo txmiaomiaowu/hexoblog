@@ -15,6 +15,14 @@ var es2015Preset = require("babel-preset-es2015");
 var Hexo = require("hexo");
 var hexo = new Hexo(process.cwd(), {}); // 初始化一个hexo对象
 
+const { src, dest } = require('gulp');
+const babel = require('gulp-babel');
+
+exports.default = function() {
+  return src('src/*.js')
+    .pipe(babel())
+    .pipe(dest('output/'));
+}
 
 // 下面几个跟hexo有关的操作，主要通过hexo.call()去执行，注意return
 // 创建静态页面 （等同 hexo generate）
