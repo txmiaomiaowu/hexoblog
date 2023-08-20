@@ -10,5 +10,11 @@
     "introduction": "免费提供了本站域名",
     "url": "http://freenom.com/",
     "title": "前去使用"
+},{
+    "avatar": "/images/vercel_logo.jpg",
+    "name": "vercel",
+    "introduction": "提供部署服务",
+    "url": "http://vercel.com/",
+    "title": "前去使用"
 }
 ]

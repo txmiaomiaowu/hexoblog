@@ -6,7 +6,7 @@ menu:
    children:
     - name: Index
       url: /
-      icon: fas fa-home
+      icon: fas fa-homef
     - name: Tags
       url: /tags
       icon: fas fa-tags
@@ -338,22 +338,22 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: false
-  owner:
-  repo:
+  owner: txmiaomiaowu
+  repo: hexoblog
   oauth:
-    clientId:
-    clientSecret:
-  admin:
+    clientId: a15fe12b4f0dc28529eb
+    clientSecret: db0c09d2d21eec28088b97507d6e20ae57a4614d
+  admin: txmiaomiaowu
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
 gitment:
   enable: false
-  owner:
-  repo:
+  owner: txmiaomiaowu
+  repo: hexoblog
   oauth:
-    clientId:
-    clientSecret:
+    clientId: a15fe12b4f0dc28529eb
+    clientSecret: db0c09d2d21eec28088b97507d6e20ae57a4614d
 
 # disqus config, default disabled
 # Disqus评论模块的配置，默认为不激活
@@ -372,7 +372,7 @@ livere:
 # 介绍: https://cloud.tencent.com/document/product/1110/36841
 # 管理验证码: https://console.cloud.tencent.com/captcha/graphical
 tcaptcha:
-  enable: true
+  enable: false
   appid: xxxxxxxxxx # 你的appid
 
 # The configuration of the Valine comment module is not activated by default.
@@ -380,27 +380,27 @@ tcaptcha:
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
   enable: false
-  appId:  # 必填
-  appKey: # 必填
-  serverURLs: # 必填 https://你的api
-  notify: false
+  appId: sWzRQ715XRgs7GjfIi4GjvEv-MdYXbMMI # 必填
+  appKey: 80w8tIFQJRSX4lqFmZMjSmfW # 必填
+  serverURLs: https://swzrq715.api.lncldglobal.com # 必填 https://你的api
+  notify: true
   verify: false
   visitor: true
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
   placeholder: 'just go go' # Comment Box placeholder
   background: /medias/comment_bg.png
-  coolpushkey: 
+  coolpushkey: sSPFjvUTNbIKzlkgZ4oSvQ1t
 
 # The configuration of the Waline comment module is not activated by default.
 # To use it, activate the configuration item.
 # Waline 评论模块的配置，默认为不激活，如要使用，就请激活该配置项
 # See: https://waline.js.org/
 waline:
-  enable: false
+  enable: true
   # Waline 服务端部署参考 https://waline.js.org/guide/server/intro.html 客户端和服务端版本需一致
   # 下面是一个例子，请替换成自己的服务端
-  serverURL: https://waline.your-domain.com
+  serverURL: https://miaomiaocomment.vercel.app/
   avatar: 'mp' # Gravatar style : ''/mp/identicon/monsterid/wavatar/retro/hide
 
 changyan:

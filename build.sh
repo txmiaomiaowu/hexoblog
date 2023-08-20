@@ -35,7 +35,12 @@ npm install hexo-auto-category --save
 npm install hexo-tag-plantuml --save
 npm install hexo-markmap --save
 npm install hexo-matery-url --save
-
+npm install hexo-lazyload-image --save
+npm i hexo-filter-lqip --save -f
+npm install gulp -g --save
+npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify --save -f
+npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 del @babel/core --save -f
+npm install gulp-imagemin@7.1.0 --save -f
 #尝试优化
 
 npm update
@@ -45,6 +50,6 @@ npm audit fix
 # 处理图片
 npm i hexo-image-link --save
 
-# 开始构建
+#压缩&清理&构建
 hexo clean
-hexo generate
+gulp ci

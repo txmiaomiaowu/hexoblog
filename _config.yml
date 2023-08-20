@@ -3,18 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Ethan's Blog
-subtitle: '哈啊啊啊'
-description: '终于部署完了'
-keywords: blog
+title: MiaoMiaoWu
+subtitle: '妙妙屋'
+description: '一个平平无奇的博客'
+keywords: blog, technology, post
 author: Ethan
-language: zh
-timezone: ''
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://example.com
+root: /
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -149,6 +152,20 @@ neat_enable: true
 neat_html:
   enable: true
   exclude:
+    - '**/*.md'
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/**/instantpage.js'
+    - '**/matery.js'
 # blur
 spoiler:
   style: blur # 或者box
@@ -162,3 +179,19 @@ auto_category:
  depth: 3
 hexo_markmap:
   pjax: true
+lazyload:
+  enable: true
+  onlypost: false # optional
+  loadingImg: /images/loading-gif.webp # optional eg ./images/loading.gif
+  isSPA: false # optional
+  preloadRatio: 2 # optional, default is 1
+# hexo-abbrlink config 、固定文章地址插件
+abbrlink:
+  alg: crc16  #算法选项：crc16、crc32，区别见之前的文章，这里默认为crc16丨crc32比crc16复杂一点，长一点
+  rep: dec    #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
+# local search
+search:
+  path: search.xml
+  field: post
+  format: striptags
+  limit: 10000
