@@ -43,9 +43,9 @@ npm install gulp-imagemin@7.1.0 --save -f --legacy-peer-deps
 
 #尝试优化
 
-npm update
-npm upgrade
-npm audit fix
+# npm update
+# npm upgrade
+# npm audit fix
 
 # 处理图片
 npm i hexo-image-link --save
