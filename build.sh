@@ -4,6 +4,13 @@
 rm -rf ./publish
 npm install -g hexo-cli
 
+#尝试优化
+
+npm update
+npm upgrade
+npm audit fix
+npm cache clean --force
+
 #安装插件
 npm clean-install --progress=false -f
 npm remove hexo-renderer-marked --save
@@ -22,6 +29,9 @@ npm i hexo-asset-image --save
 npm install hexo-abbrlink --save
 npm install hexo-neat --save
 npm i hexo-filter-nofollow --save
+#
+npm audit fix --force
+#
 npm install hexo-pinyin-ruby-marks -- save
 npm install hexo-spoiler --save
 npm install hexo-tag-common --save
@@ -40,12 +50,9 @@ npm install gulp -g --save -f --legacy-peer-deps
 npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify --save -f --legacy-peer-deps
 npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 @babel/core --save -f --legacy-peer-deps
 npm install gulp-imagemin@7.1.0 --save -f --legacy-peer-deps
-
-#尝试优化
-
-# npm update
-# npm upgrade
-# npm audit fix
+#
+npm audit fix --force
+#
 
 # 处理图片
 npm i hexo-image-link --save
