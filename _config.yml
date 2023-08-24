@@ -182,7 +182,7 @@ hexo_markmap:
 lazyload:
   enable: true
   onlypost: false # optional
-  loadingImg: loading-gif.webp # optional eg ./images/loading.gif
+  loadingImg: /medias/loading-gif.webp # optional eg ./images/loading.gif
   isSPA: false # optional
   preloadRatio: 2 # optional, default is 1
 # hexo-abbrlink config 、固定文章地址插件
