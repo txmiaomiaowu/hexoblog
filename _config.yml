@@ -133,7 +133,6 @@ markdown:
    - markdown-it-sup
    - markdown-it-table-of-contents
    - markdown-it-merge-cells
-   - markdown-it-table
   anchors:
     level: 2
     collisionSuffix: ''
