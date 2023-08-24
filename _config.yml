@@ -133,6 +133,7 @@ markdown:
    - markdown-it-sup
    - markdown-it-table-of-contents
    - markdown-it-merge-cells
+   - markdown-it-table
   anchors:
     level: 2
     collisionSuffix: ''
@@ -200,9 +201,9 @@ hexo_external_link:
   enable_base64_encode: true
   url_param_name: 'u'
   html_file_name: 'go.html'
-  target_blank: true
+  target_blank: false
   link_rel: 'external nofollow noopener noreferrer'
-  domain: 'your_domain' # 如果开启了防盗链
+  domain: 'window.location.host' # 如果开启了防盗链
   safety_chain: true
   ignore_attrs: 
     - 'data-fancybox'
