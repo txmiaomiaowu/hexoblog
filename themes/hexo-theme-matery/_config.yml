@@ -732,7 +732,49 @@ bbtime:
 # {% endmermaid %}
 # mermaid chart。 依赖hexo-tag-mermaid
 mermaid: ## mermaid url https://github.com/knsv/mermaid
-  enable: false  # default false
+  enable: true  # default false
   version: "latest" # default v7.1.2
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true
+# engine
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: true
+    langPrefix: 'language-'
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  enable_rules:
+  disable_rules:
+  plugins:
+   - markdown-it-abbr
+   - markdown-it-attrs
+   - markdown-it-cjk-breaks
+   - markdown-it-container
+   - markdown-it-deflist
+   - markdown-it-emoji
+   - markdown-it-footnote
+   - markdown-it-ins
+   - markdown-it-mark
+   - markdown-it-sub
+   - markdown-it-sup
+   - markdown-it-table-of-contents
+   - markdown-it-merge-cells
+   - markdown-it-cjk-breaks
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    permalink: true
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'left'
+    permalinkSymbol: '¶'
+    case: 0
+    separator: '-'
+  images:
+    lazyload: false
+    prepend_root: true
+    post_asset: true
+  inline: true  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
