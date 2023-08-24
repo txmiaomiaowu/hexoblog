@@ -13,8 +13,9 @@ npm audit fix
 npm cache clean --force
 
 #安装插件
-npm install
-
+#避免兼容性问题
+npm clean-install --progress=false -f
+npm i
 
 # 处理图片
 npm i hexo-image-link --save
