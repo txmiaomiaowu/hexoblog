@@ -731,11 +731,6 @@ bbtime:
 #     C -->|Three| F[Car]
 # {% endmermaid %}
 # mermaid chart。 依赖hexo-tag-mermaid
-mermaid: ## mermaid url https://github.com/knsv/mermaid
-  enable: true  # default false
-  version: "latest" # default v7.1.2
-  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
-    #startOnload: true  // default true
 # engine
 markdown:
   preset: 'default'
@@ -764,6 +759,7 @@ markdown:
    - markdown-it-table-of-contents
    - markdown-it-merge-cells
    - markdown-it-cjk-breaks
+   - markdown-it-task-lists
   anchors:
     level: 2
     collisionSuffix: ''
