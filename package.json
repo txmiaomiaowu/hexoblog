@@ -12,7 +12,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
-    "@babel/core": "^7.22.10",
+    "@babel/core": "^7.22.20",
     "@heowc/hexo-tag-gdemo": "^0.15.0",
     "@vercel/analytics": "^1.0.2",
     "babel-preset-es2015": "^6.24.1",
