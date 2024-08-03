@@ -3,21 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: MiaoMiaoWu
-subtitle: '妙妙屋'
-description: '一个平平无奇的博客'
-keywords: blog, technology, post
-author: Ethan
-language: zh-CN
-timezone: 'Asia/Shanghai'
+title: TXの小站
+subtitle: '人生苦短,我选HEXO'
+description: ''
+keywords:
+author: TX
+language: zh_cn
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://example.com
-root: /
-permalink: posts/:abbrlink.html
+url: http://example.com
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -43,18 +40,17 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: false
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace: ''
   wrap: true
-  hljs: true
+  hljs: false
 prismjs:
-  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -100,69 +96,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-matery
+theme: yun
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-# zip
-neat_enable: true
-neat_html:
-  enable: true
-  exclude:
-    - '**/*.md'
-neat_css:
-  enable: true
-  exclude:
-    - '**/*.min.css'
-neat_js:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - '**/*.min.js'
-    - '**/**/instantpage.js'
-    - '**/matery.js'
-# blur
-spoiler:
-  style: blur # 或者box
-  color: black # 仅当 style 为 box 时起效
-  p: false # 没懂啥意思，不管它
-# Generate categories from directory-tree
-# Dependencies: https://github.com/xu-song/hexo-auto-category
-# depth: the depth of directory-tree you want to generate, should > 0
-auto_category:
- enable: true
- depth: 3
-hexo_markmap:
-  pjax: true
-lazyload:
-  enable: true
-  onlypost: false # optional
-  loadingImg: /medias/loading.jpg # optional eg ./images/loading.gif
-  isSPA: false # optional
-  preloadRatio: 4 # optional, default is 1
-# hexo-abbrlink config 、固定文章地址插件
-abbrlink:
-  alg: crc16  #算法选项：crc16、crc32，区别见之前的文章，这里默认为crc16丨crc32比crc16复杂一点，长一点
-  rep: dec    #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
-# local search
-search:
-  path: search.xml
-  field: post
-  format: striptags
-  limit: 10000
-hexo_external_link:
-  enable: false
-  enable_base64_encode: true
-  url_param_name: 'u'
-  html_file_name: 'go.html'
-  target_blank: false
-  link_rel: 'external nofollow noopener noreferrer'
-  domain: 'window.location.host' # 如果开启了防盗链
-  safety_chain: false
-  ignore_attrs: 
-    - 'data-fancybox'
-    - 'ignore-external-link'

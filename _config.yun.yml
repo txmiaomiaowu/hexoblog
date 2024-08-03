@@ -1,0 +1,182 @@
+head:
+  css:
+    ionicons: https://cdn.jsdelivr.net/npm/ionicons/dist/css/ionicons.min.css
+favicon: /favicon.ico
+banner:
+  enable: true
+  title:
+    - TX
+    - の
+    - 小
+    - 站
+  border: true
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+notice:
+  enable: true
+  content: 感谢您的访问！
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: ri:rss-line
+    color: orange
+  - name: GitHub
+    link: https://github.com/YunYouJun
+    icon: ri:github-line
+    color: '#181717'
+  - name: E-Mail
+    link: mailto:me@yunyoujun.cn
+    icon: ri:mail-line
+    color: '#8E71C1'
+  - name: 微博
+    link: https://weibo.com/jizhideyunyoujun
+    icon: ri:weibo-line
+    color: '#E6162D'
+  - name: 豆瓣
+    link: https://www.douban.com/people/yunyoujun/
+    icon: ri:douban-line
+    color: '#007722'
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=247102977
+    icon: ri:netease-cloud-music-line
+    color: '#C10D0C'
+  - name: 知乎
+    link: https://www.zhihu.com/people/yunyoujun/
+    icon: ri:zhihu-line
+    color: '#0084FF'
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/1579790
+    icon: ri:bilibili-line
+    color: '#FF8EB3'
+  - name: 微信公众号
+    link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
+    icon: ri:wechat-2-line
+    color: '#1AAD19'
+  - name: Twitter
+    link: https://twitter.com/YunYouJun
+    icon: ri:twitter-line
+    color: '#1da1f2'
+  - name: Telegram
+    link: https://t.me/YunYouJun
+    icon: ri:telegram-line
+    color: '#0088CC'
+  - name: Telegram Channel
+    link: https://t.me/elpsycn
+    icon: ri:telegram-fill
+    color: '#0088CC'
+  - name: Travelling
+    link: https://www.travellings.cn/go.html
+    icon: ri:send-plane-2-line
+    color: black
+font:
+  cdn:
+    enable: true
+    lib:
+      - https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap
+  serif:
+    family: '''Songti SC'', ''Noto Serif SC'', STZhongsong, STKaiti, KaiTi, Roboto, serif'
+    weight: 900
+  sans_serif:
+    family: '''PingFang SC'', ''Microsoft YaHei'', Roboto, Arial, sans-serif'
+    weight: 400
+  monospace:
+    family: '''Source Code Pro'', ''Courier New'', Courier, Consolas, Monaco, monospace'
+cursor:
+  enable: true
+  default: https://cdn.yunyoujun.cn/css/md-cursors/pointer.cur
+  pointer: https://cdn.yunyoujun.cn/css/md-cursors/link.cur
+  text: https://cdn.yunyoujun.cn/css/md-cursors/text.cur
+avatar:
+  enable: true
+  url: /head.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: true
+  status:
+    enable: true
+    emoji: 😭
+    message: 不想上学
+post_card:
+  opacity: 0.6
+say:
+  enable: true
+  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+  # https://developer.hitokoto.cn/sentence/
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn
+mourn:
+  enable: true
+  days:
+    - 4-4
+comment:
+  enable: true
+  tips:
+    - 留下你的想法吧!
+  candidates:
+    - giscus
+giscus:
+  enable: false
+  repo: txmiaomiaowu/hexoblog
+  repo-id: R_kgDOKI22qg
+  category: Announcements
+  category-id: DIC_kwDOKI22qs4ChX2r
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 1
+  theme: preferred_color_scheme
+engine_search:
+  enable: false
+# search
+# https://github.com/next-theme/hexo-generator-searchdb
+local_search:
+  enable: true
+busuanzi:
+  enable: true
+  site_uv: true
+  site_uv_icon: ri:user-line
+  site_pv: true
+  site_pv_icon: ri:eye-line
+  page_pv: true
+  page_pv_icon: ri:eye-line
+wordcount:
+  enable: true
+  count: true
+  time: true
+live2d:
+  enable: true
+  # 推荐使用 jsdelivr 的 CDN 来加载
+  scriptFrom: jsdelivr
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    # 推荐使用 CDN 来加载模型
+    use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7
+  # dialog:
+  #   # 是否开启对话框
+  #   enable: true
+  #   # 是否使用一言
+  #   hitokoto: true
+katex:
+  copy_tex: true
+  global: false
+  options: {}
+pjax:
+  enable: true
