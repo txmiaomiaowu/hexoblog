@@ -12,6 +12,15 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-mobx": "^2.0.0",
+    "graceful-fs": "^4.2.11",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-remove-use-strict": "^1.0.0",
+    "gulp-uglify": "^3.0.2",
     "hexo": "^7.3.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
@@ -27,5 +36,10 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-yun": "^1.10.11",
     "hexo-wordcount": "^6.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7"
   }
 }
